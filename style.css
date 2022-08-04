@@ -1,3 +1,10 @@
+h1 {
+  font-size: 90px;
+  font-family: "Creepster", cursive;
+  text-align: center;
+  padding-top: 50px;
+}
+
 * {
   margin: 0;
   padding: 0;
