@@ -37,8 +37,12 @@ window.addEventListener("load", function () {
       this.lives = 3;
       this.player.currentState = this.player.states[0];
       this.player.currentState.enter();
+      this.sound = new Audio();
+      this.sound.src = "assets/background.mp3";
+      this.sound.volume = 0.5;
     }
     update(deltaTime) {
+      if (this.time < this.maxTime) this.sound.play();
       this.time += deltaTime;
       if (this.time > this.maxTime) this.gameOver = true;
       this.background.update();
