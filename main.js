@@ -42,8 +42,8 @@ window.addEventListener("load", function () {
       this.sound.volume = 0.5;
     }
     update(deltaTime) {
-      if (this.time < this.maxTime) this.sound.play();
       this.time += deltaTime;
+      if (this.time < this.maxTime) this.sound.play();
       if (this.time > this.maxTime) this.gameOver = true;
       this.background.update();
       this.player.update(this.input.keys, deltaTime);
