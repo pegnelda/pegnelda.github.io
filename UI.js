@@ -5,6 +5,7 @@ export class UI {
     this.fontFamily = "Creepster";
     this.livesImage = document.getElementById("lives");
   }
+
   draw(context) {
     context.save();
     context.shadowOffsetX = 2;
@@ -27,6 +28,7 @@ export class UI {
     function showButton() {
       document.getElementById("button").style.display = "inline";
     }
+
     if (this.game.gameOver) {
       context.textAlign = "center";
       context.font = this.fontSize * 2 + "px " + this.fontFamily;
