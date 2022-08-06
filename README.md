@@ -8,7 +8,7 @@
 
 ## General Info
 This project is a simple 2D sidescrolling game made with vanilla javascript. The character can be moved 
-through the arrow keys on the keyboard. An attack move is available when using the "Enter" button.
+through the arrow keys on the keyboard. An attack move is available when using the space bar.
 The goal is to score at least 50 points within the time limit of 30 seconds. The player has 3 lives.
 	
 ## Technologies
