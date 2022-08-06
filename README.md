@@ -28,7 +28,7 @@ The project is created with:
 * ~~sound effect for collition animation missing~~
 * ~~background music missing~~
 * instructions on web page not available
-* replay button not available
+* ~~replay button not available~~
 * high score not available
 * web page not yet responsive
 * web page not optimised for accessability
