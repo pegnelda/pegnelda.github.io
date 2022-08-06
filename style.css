@@ -39,7 +39,7 @@ h1 {
   display: none;
 }
 
-#button {
+.btn {
   background-color: black;
   border: none;
   border-radius: 10px;
@@ -53,4 +53,11 @@ h1 {
   top: 60%;
   left: 45%;
   display: none;
+  box-shadow: 0px 0px 2px 2px grey;
+}
+
+.btn:hover {
+  background: rgb(96 96 96);
+  color: black;
+  box-shadow: 0px 0px 2px 2px white;
 }
