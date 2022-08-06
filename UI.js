@@ -24,6 +24,9 @@ export class UI {
       context.drawImage(this.livesImage, 25 * i + 20, 95, 25, 25);
     }
     // game over message
+    function showButton() {
+      document.getElementById("button").style.display = "inline";
+    }
     if (this.game.gameOver) {
       context.textAlign = "center";
       context.font = this.fontSize * 2 + "px " + this.fontFamily;
@@ -37,7 +40,8 @@ export class UI {
         context.fillText(
           "What are creatures of the night afraid of? YOU!",
           this.game.width * 0.5,
-          this.game.height * 0.5 + 20
+          this.game.height * 0.5 + 20,
+          showButton()
         );
       } else {
         context.fillText(
@@ -49,7 +53,8 @@ export class UI {
         context.fillText(
           "Better luck next time!",
           this.game.width * 0.5,
-          this.game.height * 0.5 + 20
+          this.game.height * 0.5 + 20,
+          showButton()
         );
       }
     }
