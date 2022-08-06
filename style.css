@@ -1,14 +1,16 @@
-h1 {
-  font-size: 90px;
-  font-family: "Creepster", cursive;
-  text-align: center;
-  padding-top: 50px;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 5vw;
+  font-family: "Creepster", cursive;
+  text-align: center;
+  top: 6%;
+  left: 20%;
+  position: absolute;
 }
 
 #canvas1 {
@@ -34,5 +36,22 @@ h1 {
 #fire,
 #collisionAnimation,
 #lives {
+  display: none;
+}
+
+#button {
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Creepster", cursive;
+  font-size: 30px;
+  position: absolute;
+  top: 60%;
+  left: 45%;
   display: none;
 }
