@@ -27,7 +27,6 @@ window.addEventListener("load", function () {
       this.collisions = [];
       this.enemyTimer = 0;
       this.enemyInterval = 1000;
-      this.debug = false;
       this.score = 0;
       this.winningScore = 50;
       this.fontColor = "black";
